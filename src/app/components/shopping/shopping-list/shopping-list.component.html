@@ -1,0 +1,10 @@
+<script src="shopping-list.component.ts"></script>
+<div class="container">
+  <div *ngFor="let i of shoppingLists" class="box">
+    <h1>{{i.albumId}}</h1>
+    <h2>{{i.id}}</h2>
+    <p>{{i.title}}</p>
+    <p>{{i.url}}</p>
+    <img [src]="i.thumbnailUrl">
+  </div>
+</div>

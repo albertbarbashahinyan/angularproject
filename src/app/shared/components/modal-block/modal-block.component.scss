@@ -1,0 +1,13 @@
+.modal-block{
+  width: 300px;
+  box-shadow: 5px 5px 15px grey;
+  margin: auto;
+  .modal-header{
+    border-bottom: 1px solid grey;
+    height: 80px;
+  }
+  .modal-footer{
+    border-top: 1px solid grey;
+    height: 80px;
+  }
+}
